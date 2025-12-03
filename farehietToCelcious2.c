@@ -5,9 +5,6 @@
 	    int user_choice;
 	    float fahrenheit;
 	    float celsius;
-	    char convert_again = 'y';
-	    while(convert_again == 'y' || convert_again=='Y'){
-		
 	    
 		printf("Hello, There\n");
 	    printf("Welcome to Temperature Converter Program.\n");
@@ -45,10 +42,7 @@
 		else{
 			printf("Invalid choice. Please Run Program again");
 		}
-		printf("\nDo you want to convert again(y/n): ");
-		scanf(" %c",&convert_again);
-		}
-		printf("Thank Your for using Convert programme");
+	
 		return 0;
 	}
 		
