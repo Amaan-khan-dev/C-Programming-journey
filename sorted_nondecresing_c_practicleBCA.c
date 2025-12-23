@@ -1,3 +1,5 @@
+//2. Display three input numbers in sorted (non-decreasing) order?
+// develped by Amaan.
 #include <stdio.h>
 
 int main() {
